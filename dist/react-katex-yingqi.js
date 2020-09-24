@@ -173,7 +173,7 @@ var InlineMath$1 = createMathComponent(InlineMath, { displayMode: false });
 var BlockMath = function BlockMath(_ref) {
   var html = _ref.html;
 
-  return React.createElement('div', { dangerouslySetInnerHTML: { __html: html } });
+  return React.createElement('span', { className: 'yingqi-block-math', dangerouslySetInnerHTML: { __html: html } });
 };
 
 BlockMath.propTypes = {

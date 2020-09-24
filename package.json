@@ -1,6 +1,6 @@
 {
   "name": "react-katex-yingqi",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Display math in TeX with KaTeX and ReactJS,forked from https://github.com/jiang-jackson/react-katex-yingqi",
   "keywords": [
     "react",

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import createMathComponent from './createMathComponent';
 
 const BlockMath = ({ html }) => {
-  return <div dangerouslySetInnerHTML={{__html: html}} />;
+  return <span className='yingqi-block-math' dangerouslySetInnerHTML={{__html: html}} />;
 };
 
 BlockMath.propTypes = {

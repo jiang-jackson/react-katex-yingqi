@@ -17,6 +17,15 @@ import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex-yingqi';
 ```
 
+```less
+  .yingqi-block-math {
+    .katex-display {
+      display: inline-block !important;
+      margin: 0px !important;
+    }
+  }
+```
+
 ### InlineMath
 
 Display math in the middle of the text.
